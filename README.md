@@ -1,4 +1,4 @@
-# 🧠 혼합 Few-Shot 프롬프팅을 통한 In-Context Learning 개선
+# 🧠 구성주의 학습 원리에 기반한 혼합 Few-Shot 프롬프팅
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/bb645e1a-62d3-4953-8aaf-9865e783afd9" alt="Prompting Illustration" width="600"/>

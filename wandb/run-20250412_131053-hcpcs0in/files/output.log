@@ -1,0 +1,27 @@
+[INFO] Loading model: beomi/Llama-3-Open-Ko-8B
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:07<00:00,  1.29s/it]
+[INFO] Loading dataset: hellaswag (split=validation)
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [00:00<00:00, 17716.02 examples/s]
+[INFO] Using 500 samples for evaluation.
+Evaluating hellaswag (hellaswag_validation_base):  38%|████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                                                                                       | 188/500 [01:21<02:15,  2.31it/s]
+Traceback (most recent call last):
+  File "/home/nlplab/ssd2/YU/Construct_prompt/evaluate_icl.py", line 479, in <module>
+  File "/home/nlplab/ssd2/YU/Construct_prompt/evaluate_icl.py", line 370, in main
+    # Task-specific Label Mapping (using current_task)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/generation/utils.py", line 2255, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/generation/utils.py", line 3247, in _sample
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/generation/utils.py", line 395, in prepare_inputs_for_generation
+    input_ids_key = "decoder_input_ids" if self.config.is_encoder_decoder else "input_ids"
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/configuration_utils.py", line 208, in __getattribute__
+    def __getattribute__(self, key):
+
+KeyboardInterrupt

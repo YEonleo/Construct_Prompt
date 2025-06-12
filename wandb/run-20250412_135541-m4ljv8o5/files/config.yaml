@@ -1,0 +1,83 @@
+_wandb:
+    value:
+        cli_version: 0.19.4
+        m: []
+        python_version: 3.11.11
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 55
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 55
+                - 71
+            "3":
+                - 2
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.11.11
+            "5": 0.19.4
+            "6": 4.48.1
+            "8":
+                - 5
+            "12": 0.19.4
+            "13": linux-x86_64
+batch_size:
+    value: 1
+boolq_scenario:
+    value: null
+copa_scenario:
+    value: null
+dataset:
+    value: sentineg
+hellaswag_scenario:
+    value: null
+icl_boolq:
+    value: false
+icl_copa:
+    value: false
+icl_hellaswag:
+    value: false
+icl_sentineg:
+    value: true
+icl_wic:
+    value: false
+max_new_tokens:
+    value: 10
+max_samples:
+    value: null
+mode:
+    value: store
+model:
+    value: beomi/Llama-3-Open-Ko-8B
+output_json_correct:
+    value: results/sentineg_FewShot_S1_correct.json
+output_json_mistakes:
+    value: results/sentineg_FewShot_S1_mistakes.json
+project_name:
+    value: KoBEST_ICL_Eval
+scenario_file:
+    value: icl_scenarios.json
+sentineg_scenario:
+    value: scenario1
+split:
+    value: validation
+wandb_group:
+    value: FewShot_S1
+wandb_run_name:
+    value: null
+wic_scenario:
+    value: null

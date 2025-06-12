@@ -1,0 +1,16 @@
+{"time":"2025-04-11T19:19:57.111871046+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250411_191956-yunlufor/logs/debug-core.log"}
+{"time":"2025-04-11T19:19:57.218732115+09:00","level":"INFO","msg":"created new stream","id":"yunlufor"}
+{"time":"2025-04-11T19:19:57.218756269+09:00","level":"INFO","msg":"stream: started","id":"yunlufor"}
+{"time":"2025-04-11T19:19:57.218806973+09:00","level":"INFO","msg":"handler: started","stream_id":"yunlufor"}
+{"time":"2025-04-11T19:19:57.218810178+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"yunlufor"}
+{"time":"2025-04-11T19:19:57.218850012+09:00","level":"INFO","msg":"sender: started","stream_id":"yunlufor"}
+{"time":"2025-04-11T19:19:57.587539464+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T19:22:11.740398465+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T19:22:11.74087707+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T19:22:12.733011462+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.243611326,"progress":"955B/955B"}],"total_operations":1}}
+{"time":"2025-04-11T19:22:12.737880881+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T19:22:14.121639457+09:00","level":"INFO","msg":"stream: closing","id":"yunlufor"}
+{"time":"2025-04-11T19:22:14.121663692+09:00","level":"INFO","msg":"handler: closed","stream_id":"yunlufor"}
+{"time":"2025-04-11T19:22:14.12167342+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yunlufor"}
+{"time":"2025-04-11T19:22:14.12169493+09:00","level":"INFO","msg":"sender: closed","stream_id":"yunlufor"}
+{"time":"2025-04-11T19:22:14.121742568+09:00","level":"INFO","msg":"stream: closed","id":"yunlufor"}

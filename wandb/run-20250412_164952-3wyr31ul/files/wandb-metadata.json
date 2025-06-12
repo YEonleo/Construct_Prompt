@@ -1,0 +1,65 @@
+{
+  "os": "Linux-5.15.0-134-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-04-12T07:49:52.934193Z",
+  "args": [
+    "--dataset",
+    "hellaswag",
+    "--model",
+    "beomi/Llama-3-Open-Ko-8B",
+    "--icl_hellaswag",
+    "--hellaswag_scenario",
+    "scenario1",
+    "--scenario_file",
+    "icl_scenarios_v3.json",
+    "--project_name",
+    "KoBEST_ICL_Eval",
+    "--wandb_group",
+    "FewShot_S1_v2",
+    "--mode",
+    "store",
+    "--output_json_mistakes",
+    "results/hellaswag_FewShot_S1_v2_mistakes.json",
+    "--output_json_correct",
+    "results/hellaswag_FewShot_S1_v2_correct.json"
+  ],
+  "program": "/home/nlplab/ssd2/YU/Construct_prompt/evaluate_icl.py",
+  "codePath": "evaluate_icl.py",
+  "email": "tkddus0307@naver.com",
+  "root": "/home/nlplab/ssd2/YU/Construct_prompt",
+  "host": "nlplab11",
+  "executable": "/home/nlplab/anaconda3/envs/unsloth_env/bin/python",
+  "codePathLocal": "evaluate_icl.py",
+  "cpu_count": 16,
+  "cpu_count_logical": 32,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "1967317549056",
+      "used": "260141056000"
+    }
+  },
+  "memory": {
+    "total": "134142722048"
+  },
+  "cpu": {
+    "count": 16,
+    "countLogical": 32
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

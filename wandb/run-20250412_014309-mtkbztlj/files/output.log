@@ -1,0 +1,12 @@
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:08<00:00,  1.48s/it]
+[INFO] Dataset size: 500 (split=validation)
+[INFO] Using CoPA scenario='scenario1'
+Evaluating EM:   0%|                                                                                                                                                                                                                                                                                                                         | 0/500 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/nlplab/ssd2/YU/Construct_prompt/copa_eval.py", line 454, in <module>
+    main()
+  File "/home/nlplab/ssd2/YU/Construct_prompt/copa_eval.py", line 338, in main
+    primt(f"[INFO] Prompt: {prompt}")
+    ^^^^^
+NameError: name 'primt' is not defined

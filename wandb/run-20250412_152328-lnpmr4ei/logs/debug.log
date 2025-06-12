@@ -1,0 +1,23 @@
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_setup.py:_flush():68] Current SDK version is 0.19.4
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_setup.py:_flush():68] Configure stats pid to 158724
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_setup.py:_flush():68] Loading settings from /home/nlplab/.config/wandb/settings
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_setup.py:_flush():68] Loading settings from /home/nlplab/ssd2/YU/Construct_prompt/wandb/settings
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_152328-lnpmr4ei/logs/debug.log
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_152328-lnpmr4ei/logs/debug-internal.log
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_init.py:init():743] calling init triggers
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {'dataset': 'hellaswag', 'split': 'train', 'model': 'beomi/Llama-3-Open-Ko-8B', 'batch_size': 1, 'max_samples': 500, 'max_new_tokens': 10, 'project_name': 'KoBEST_ICL_Eval', 'wandb_run_name': None, 'wandb_group': 'ZeroShot_Train_Store_500', 'mode': 'store', 'output_json_mistakes': 'results_train_500/hellaswag_train_ZeroShot_Train_Store_500_mistakes.json', 'output_json_correct': 'results_train_500/hellaswag_train_ZeroShot_Train_Store_500_correct.json', 'scenario_file': 'icl_scenarios.json', 'icl_copa': False, 'icl_boolq': False, 'icl_hellaswag': False, 'icl_sentineg': False, 'icl_wic': False, 'copa_scenario': None, 'boolq_scenario': None, 'hellaswag_scenario': None, 'sentineg_scenario': None, 'wic_scenario': None}
+2025-04-12 15:23:28,306 INFO    MainThread:158724 [wandb_init.py:init():776] starting backend
+2025-04-12 15:23:28,514 INFO    MainThread:158724 [wandb_init.py:init():780] sending inform_init request
+2025-04-12 15:23:28,519 INFO    MainThread:158724 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-12 15:23:28,519 INFO    MainThread:158724 [wandb_init.py:init():795] backend started and connected
+2025-04-12 15:23:28,521 INFO    MainThread:158724 [wandb_init.py:init():888] updated telemetry
+2025-04-12 15:23:28,521 INFO    MainThread:158724 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-12 15:23:28,980 INFO    MainThread:158724 [wandb_init.py:init():967] starting run threads in backend
+2025-04-12 15:23:29,040 INFO    MainThread:158724 [wandb_run.py:_console_start():2409] atexit reg
+2025-04-12 15:23:29,040 INFO    MainThread:158724 [wandb_run.py:_redirect():2259] redirect: wrap_raw
+2025-04-12 15:23:29,040 INFO    MainThread:158724 [wandb_run.py:_redirect():2324] Wrapping output streams.
+2025-04-12 15:23:29,040 INFO    MainThread:158724 [wandb_run.py:_redirect():2349] Redirects installed.
+2025-04-12 15:23:29,042 INFO    MainThread:158724 [wandb_init.py:init():1009] run started, returning control to user process
+2025-04-12 15:24:17,657 WARNING MsgRouterThr:158724 [router.py:message_loop():75] message_loop has been closed

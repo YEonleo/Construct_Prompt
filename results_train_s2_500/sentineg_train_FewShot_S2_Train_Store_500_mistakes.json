@@ -1,0 +1,101 @@
+[
+  {
+    "index": 163,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 묵직하지 않고 가벼워서 밀려요..",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 묵직하지 않고 가벼워서 밀려요..\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "positive",
+    "raw_prediction_token": "positive",
+    "model_output": "positive"
+  },
+  {
+    "index": 192,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 색상을 다르게 보내주셨네요",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 색상을 다르게 보내주셨네요\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "positive",
+    "raw_prediction_token": "positive",
+    "model_output": "positive"
+  },
+  {
+    "index": 206,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 밑위가 짧은게 단점이에요ㅎㅎ",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 밑위가 짧은게 단점이에요ㅎㅎ\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "positive",
+    "raw_prediction_token": "positive",
+    "model_output": "positive"
+  },
+  {
+    "index": 216,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 제품 자체가 좋은지 잘 모르겠고 가격대비 그냥 그저그래요",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 제품 자체가 좋은지 잘 모르겠고 가격대비 그냥 그저그래요\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "None",
+    "raw_prediction_token": "neutral",
+    "model_output": "neutral\n\n###"
+  },
+  {
+    "index": 242,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 포장에 신경 써 주시길 바랍니다.",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 포장에 신경 써 주시길 바랍니다.\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "positive",
+    "raw_prediction_token": "positive",
+    "model_output": "positive"
+  },
+  {
+    "index": 243,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 미니 사이즈라서 약간 작습니다.",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 미니 사이즈라서 약간 작습니다.\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "positive",
+    "raw_prediction_token": "positive",
+    "model_output": "positive"
+  },
+  {
+    "index": 289,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 넘 예쁘다는 후기에 구매했는데 그냥 그래요",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 넘 예쁘다는 후기에 구매했는데 그냥 그래요\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "None",
+    "raw_prediction_token": "neutral",
+    "model_output": "neutral\n\n###"
+  },
+  {
+    "index": 400,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 화분이 종이라는것이 다소 부족한 것 같아요.",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 화분이 종이라는것이 다소 부족한 것 같아요.\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "positive",
+    "raw_prediction_token": "positive",
+    "model_output": "positive"
+  },
+  {
+    "index": 456,
+    "task": "sentineg",
+    "instruction": "주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.",
+    "input_part": "문장: 눈썹정리가 아직 숙달이 안돼서 힘듭니다.",
+    "prompt_used": "다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.\n\n### 지시:\n주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.\n\n### 입력:\n문장: 너무나 잘 안 지워져서 다시 다른 제품 구매하려고 해요\n### 응답:\nnegative\n\n### 입력:\n문장: 별로네요 글씨가 지워져요!\n### 응답:\nnegative\n\n### 입력:\n문장: 두개 중에 하나는 벌써 고장났어요\n### 응답:\nnegative\n\n### 입력:\n문장: 예쁜데도 아주 실용적입니다.\n### 응답:\npositive\n\n### 입력:\n문장: 긴 붓이 안들어가고 뚜껑이 잘 열려요\n### 응답:\nnegative\n\n### 입력:\n문장: 눈썹정리가 아직 숙달이 안돼서 힘듭니다.\n\n### 응답:\n",
+    "gold": "negative",
+    "prediction": "positive",
+    "raw_prediction_token": "positive",
+    "model_output": "positive"
+  }
+]

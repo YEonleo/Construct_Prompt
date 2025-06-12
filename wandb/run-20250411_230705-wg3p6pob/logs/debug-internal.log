@@ -1,0 +1,15 @@
+{"time":"2025-04-11T23:07:06.011798302+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250411_230705-wg3p6pob/logs/debug-core.log"}
+{"time":"2025-04-11T23:07:06.116088152+09:00","level":"INFO","msg":"created new stream","id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:06.116114301+09:00","level":"INFO","msg":"stream: started","id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:06.116150789+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:06.116162231+09:00","level":"INFO","msg":"handler: started","stream_id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:06.11619915+09:00","level":"INFO","msg":"sender: started","stream_id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:06.511646386+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T23:07:42.831415648+09:00","level":"INFO","msg":"stream: closing","id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:42.831439042+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T23:07:42.83190316+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T23:07:43.654050996+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T23:07:43.998870618+09:00","level":"INFO","msg":"handler: closed","stream_id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:43.998899773+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:43.998911535+09:00","level":"INFO","msg":"sender: closed","stream_id":"wg3p6pob"}
+{"time":"2025-04-11T23:07:43.998956218+09:00","level":"INFO","msg":"stream: closed","id":"wg3p6pob"}

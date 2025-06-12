@@ -1,0 +1,16 @@
+{"time":"2025-04-11T19:56:07.132371237+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250411_195606-5sjyi7ah/logs/debug-core.log"}
+{"time":"2025-04-11T19:56:07.236725058+09:00","level":"INFO","msg":"created new stream","id":"5sjyi7ah"}
+{"time":"2025-04-11T19:56:07.236761547+09:00","level":"INFO","msg":"stream: started","id":"5sjyi7ah"}
+{"time":"2025-04-11T19:56:07.236802864+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"5sjyi7ah"}
+{"time":"2025-04-11T19:56:07.236828412+09:00","level":"INFO","msg":"handler: started","stream_id":"5sjyi7ah"}
+{"time":"2025-04-11T19:56:07.236822591+09:00","level":"INFO","msg":"sender: started","stream_id":"5sjyi7ah"}
+{"time":"2025-04-11T19:56:07.644697419+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T19:58:23.465421416+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T19:58:23.465902798+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T19:58:24.451078537+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T19:58:24.465964903+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 8-10","runtime_seconds":0.014807317}],"total_operations":1}}
+{"time":"2025-04-11T19:58:25.770959024+09:00","level":"INFO","msg":"stream: closing","id":"5sjyi7ah"}
+{"time":"2025-04-11T19:58:25.770985213+09:00","level":"INFO","msg":"handler: closed","stream_id":"5sjyi7ah"}
+{"time":"2025-04-11T19:58:25.77099407+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5sjyi7ah"}
+{"time":"2025-04-11T19:58:25.771053932+09:00","level":"INFO","msg":"sender: closed","stream_id":"5sjyi7ah"}
+{"time":"2025-04-11T19:58:25.771070944+09:00","level":"INFO","msg":"stream: closed","id":"5sjyi7ah"}

@@ -1,0 +1,24 @@
+[INFO] Loading model: beomi/Llama-3-Open-Ko-8B
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:07<00:00,  1.31s/it]
+[INFO] Loading dataset: copa (split=validation)
+[INFO] Using 500 samples for evaluation.
+[WARN] ICL flag for copa is set, but scenario 'scenario2' not found or specified correctly. Running Zero-Shot style.
+Evaluating copa (copa_validation_base_copa_scenario2):   0%|                                                                                                                                                                                                                                                                                 | 0/500 [02:40<?, ?it/s]
+[INFO] Final prompt for sample 0:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+전제 뒤에 올 문장으로 적절한 문장의 번호를 선택하세요. 답변에는 1, 2 외에는 아무것도 포함하지 않는 것을 엄수하십시오.
+
+### 입력:
+전제: 전쟁이 시작되었다. 그래서
+1: 병사들이 집으로 돌아왔다.
+2: 병사들이 전투에 파견되었다.
+
+### 응답:
+Traceback (most recent call last):
+  File "/home/nlplab/ssd2/YU/Construct_prompt/evaluate_icl.py", line 453, in <module>
+    main()
+  File "/home/nlplab/ssd2/YU/Construct_prompt/evaluate_icl.py", line 348, in main
+    input()
+KeyboardInterrupt

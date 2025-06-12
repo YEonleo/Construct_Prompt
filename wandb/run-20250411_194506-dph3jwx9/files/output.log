@@ -1,0 +1,96 @@
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:09<00:00,  1.53s/it]
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 700/700 [00:00<00:00, 40804.59 examples/s]
+[INFO] Dataset size: 700 (split=validation)
+Evaluating EM:   0%|                                                                                                                                                                                                                                                                                                                         | 0/700 [00:00<?, ?it/s]/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/generation/utils.py:2137: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/bitsandbytes/autograd/_functions.py:315: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Evaluating EM:  20%|█████████████████████████████████████████████████████████████▍                                                                                                                                                                                                                                                 | 142/700 [00:36<02:21,  3.94it/s]
+Traceback (most recent call last):
+  File "/home/nlplab/ssd2/YU/Construct_prompt/base_eval.py", line 320, in <module>
+    main()
+  File "/home/nlplab/ssd2/YU/Construct_prompt/base_eval.py", line 225, in main
+    outputs = base_model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/generation/utils.py", line 2255, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/generation/utils.py", line 3257, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/accelerate/hooks.py", line 176, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 831, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 589, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/accelerate/hooks.py", line 176, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 332, in forward
+    hidden_states, self_attn_weights = self.self_attn(
+                                       ^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/accelerate/hooks.py", line 176, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 267, in forward
+    key_states = self.k_proj(hidden_states).view(hidden_shape).transpose(1, 2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/accelerate/hooks.py", line 176, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/bitsandbytes/nn/modules.py", line 990, in forward
+    out = bnb.matmul(x, self.weight, bias=self.bias, state=self.state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/bitsandbytes/autograd/_functions.py", line 509, in matmul
+    return MatMul8bitLt.apply(A, B, out, bias, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/bitsandbytes/autograd/_functions.py", line 373, in forward
+    output = F.int8_mm_dequant(out32, SCA, state.SCB, bias=bias).to(A.dtype)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/bitsandbytes/functional.py", line 2416, in int8_mm_dequant
+    with _cuda_device_of(A):
+  File "/home/nlplab/anaconda3/envs/unsloth_env/lib/python3.11/site-packages/torch/cuda/__init__.py", line 444, in __enter__
+    self.prev_idx = torch.cuda._exchange_device(self.idx)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

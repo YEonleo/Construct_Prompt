@@ -1,0 +1,15 @@
+{"time":"2025-04-12T14:33:10.792217644+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_143310-vbzc85ao/logs/debug-core.log"}
+{"time":"2025-04-12T14:33:10.896175392+09:00","level":"INFO","msg":"created new stream","id":"vbzc85ao"}
+{"time":"2025-04-12T14:33:10.896191822+09:00","level":"INFO","msg":"stream: started","id":"vbzc85ao"}
+{"time":"2025-04-12T14:33:10.896213974+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"vbzc85ao"}
+{"time":"2025-04-12T14:33:10.89622788+09:00","level":"INFO","msg":"handler: started","stream_id":"vbzc85ao"}
+{"time":"2025-04-12T14:33:10.896294564+09:00","level":"INFO","msg":"sender: started","stream_id":"vbzc85ao"}
+{"time":"2025-04-12T14:33:11.379862906+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-12T14:35:00.519751267+09:00","level":"INFO","msg":"stream: closing","id":"vbzc85ao"}
+{"time":"2025-04-12T14:35:00.519770323+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-12T14:35:00.520209734+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-12T14:35:01.31399778+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-12T14:35:01.970197043+09:00","level":"INFO","msg":"handler: closed","stream_id":"vbzc85ao"}
+{"time":"2025-04-12T14:35:01.970231307+09:00","level":"INFO","msg":"sender: closed","stream_id":"vbzc85ao"}
+{"time":"2025-04-12T14:35:01.970228962+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vbzc85ao"}
+{"time":"2025-04-12T14:35:01.970290106+09:00","level":"INFO","msg":"stream: closed","id":"vbzc85ao"}

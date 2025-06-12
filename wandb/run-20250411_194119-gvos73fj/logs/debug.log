@@ -1,0 +1,30 @@
+2025-04-11 19:41:19,376 INFO    MainThread:2168634 [wandb_setup.py:_flush():68] Current SDK version is 0.19.4
+2025-04-11 19:41:19,376 INFO    MainThread:2168634 [wandb_setup.py:_flush():68] Configure stats pid to 2168634
+2025-04-11 19:41:19,377 INFO    MainThread:2168634 [wandb_setup.py:_flush():68] Loading settings from /home/nlplab/.config/wandb/settings
+2025-04-11 19:41:19,377 INFO    MainThread:2168634 [wandb_setup.py:_flush():68] Loading settings from /home/nlplab/ssd2/YU/Construct_prompt/wandb/settings
+2025-04-11 19:41:19,377 INFO    MainThread:2168634 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-04-11 19:41:19,377 INFO    MainThread:2168634 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250411_194119-gvos73fj/logs/debug.log
+2025-04-11 19:41:19,377 INFO    MainThread:2168634 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250411_194119-gvos73fj/logs/debug-internal.log
+2025-04-11 19:41:19,377 INFO    MainThread:2168634 [wandb_init.py:init():743] calling init triggers
+2025-04-11 19:41:19,377 INFO    MainThread:2168634 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {}
+2025-04-11 19:41:19,377 INFO    MainThread:2168634 [wandb_init.py:init():776] starting backend
+2025-04-11 19:41:19,585 INFO    MainThread:2168634 [wandb_init.py:init():780] sending inform_init request
+2025-04-11 19:41:19,589 INFO    MainThread:2168634 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-11 19:41:19,589 INFO    MainThread:2168634 [wandb_init.py:init():795] backend started and connected
+2025-04-11 19:41:19,590 INFO    MainThread:2168634 [wandb_init.py:init():888] updated telemetry
+2025-04-11 19:41:19,591 INFO    MainThread:2168634 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-11 19:41:20,063 INFO    MainThread:2168634 [wandb_init.py:init():967] starting run threads in backend
+2025-04-11 19:41:20,120 INFO    MainThread:2168634 [wandb_run.py:_console_start():2409] atexit reg
+2025-04-11 19:41:20,120 INFO    MainThread:2168634 [wandb_run.py:_redirect():2259] redirect: wrap_raw
+2025-04-11 19:41:20,120 INFO    MainThread:2168634 [wandb_run.py:_redirect():2324] Wrapping output streams.
+2025-04-11 19:41:20,120 INFO    MainThread:2168634 [wandb_run.py:_redirect():2349] Redirects installed.
+2025-04-11 19:41:20,121 INFO    MainThread:2168634 [wandb_init.py:init():1009] run started, returning control to user process
+2025-04-11 19:41:20,121 INFO    MainThread:2168634 [wandb_run.py:_config_callback():1270] config_cb None None {'dataset': 'wic', 'split': 'validation', 'model': 'beomi/Llama-3-Open-Ko-8B', 'batch_size': 1, 'seq_len': 128, 'max_samples': None, 'max_new_tokens': 5, 'project_name': 'SFSD_KO', 'wandb_run_name': None, 'mode': 'base', 'output_json': 'mistakes.json'}
+2025-04-11 19:44:05,809 INFO    MainThread:2168634 [wandb_run.py:_finish():2134] finishing run leoyeon/SFSD_KO/gvos73fj
+2025-04-11 19:44:05,809 INFO    MainThread:2168634 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2025-04-11 19:44:05,809 INFO    MainThread:2168634 [wandb_run.py:_restore():2356] restore
+2025-04-11 19:44:05,809 INFO    MainThread:2168634 [wandb_run.py:_restore():2362] restore done
+2025-04-11 19:44:08,129 INFO    MainThread:2168634 [wandb_run.py:_footer_history_summary_info():3976] rendering history
+2025-04-11 19:44:08,130 INFO    MainThread:2168634 [wandb_run.py:_footer_history_summary_info():4008] rendering summary
+2025-04-11 19:44:08,130 INFO    MainThread:2168634 [wandb_run.py:_footer_sync_info():3937] logging synced files

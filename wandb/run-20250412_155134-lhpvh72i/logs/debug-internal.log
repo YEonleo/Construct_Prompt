@@ -1,0 +1,16 @@
+{"time":"2025-04-12T15:51:34.222383264+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_155134-lhpvh72i/logs/debug-core.log"}
+{"time":"2025-04-12T15:51:34.327292135+09:00","level":"INFO","msg":"created new stream","id":"lhpvh72i"}
+{"time":"2025-04-12T15:51:34.327324465+09:00","level":"INFO","msg":"stream: started","id":"lhpvh72i"}
+{"time":"2025-04-12T15:51:34.327349071+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"lhpvh72i"}
+{"time":"2025-04-12T15:51:34.327357537+09:00","level":"INFO","msg":"handler: started","stream_id":"lhpvh72i"}
+{"time":"2025-04-12T15:51:34.327397872+09:00","level":"INFO","msg":"sender: started","stream_id":"lhpvh72i"}
+{"time":"2025-04-12T15:51:34.68284618+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-12T15:56:00.735484326+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-12T15:56:00.735917315+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-12T15:56:01.736080091+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.495061014,"progress":"1.2MB/2.1MB"},{"desc":"uploading config.yaml","runtime_seconds":0.242972493,"progress":"1.6KB/1.6KB"}],"total_operations":2}}
+{"time":"2025-04-12T15:56:02.71842021+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-12T15:56:04.159471476+09:00","level":"INFO","msg":"stream: closing","id":"lhpvh72i"}
+{"time":"2025-04-12T15:56:04.159491022+09:00","level":"INFO","msg":"handler: closed","stream_id":"lhpvh72i"}
+{"time":"2025-04-12T15:56:04.159500019+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lhpvh72i"}
+{"time":"2025-04-12T15:56:04.159509346+09:00","level":"INFO","msg":"sender: closed","stream_id":"lhpvh72i"}
+{"time":"2025-04-12T15:56:04.159578576+09:00","level":"INFO","msg":"stream: closed","id":"lhpvh72i"}

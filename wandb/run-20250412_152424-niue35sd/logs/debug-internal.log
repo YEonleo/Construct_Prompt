@@ -1,0 +1,11 @@
+{"time":"2025-04-12T15:24:25.02859441+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_152424-niue35sd/logs/debug-core.log"}
+{"time":"2025-04-12T15:24:25.132804178+09:00","level":"INFO","msg":"created new stream","id":"niue35sd"}
+{"time":"2025-04-12T15:24:25.132824696+09:00","level":"INFO","msg":"stream: started","id":"niue35sd"}
+{"time":"2025-04-12T15:24:25.132867216+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"niue35sd"}
+{"time":"2025-04-12T15:24:25.132877605+09:00","level":"INFO","msg":"handler: started","stream_id":"niue35sd"}
+{"time":"2025-04-12T15:24:25.13292297+09:00","level":"INFO","msg":"sender: started","stream_id":"niue35sd"}
+{"time":"2025-04-12T15:24:25.49468163+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-12T15:25:34.485268256+09:00","level":"INFO","msg":"stream: closing","id":"niue35sd"}
+{"time":"2025-04-12T15:25:34.485298613+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-12T15:25:34.485851664+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-12T15:25:35.588972581+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

@@ -1,0 +1,15 @@
+{"time":"2025-04-12T13:24:06.186033753+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_132405-qzvdyoja/logs/debug-core.log"}
+{"time":"2025-04-12T13:24:06.290753735+09:00","level":"INFO","msg":"created new stream","id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:06.290786556+09:00","level":"INFO","msg":"stream: started","id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:06.29081025+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:06.290843302+09:00","level":"INFO","msg":"sender: started","stream_id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:06.290845987+09:00","level":"INFO","msg":"handler: started","stream_id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:06.683770237+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-12T13:24:27.666180786+09:00","level":"INFO","msg":"stream: closing","id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:27.666219368+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-12T13:24:27.666702961+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-12T13:24:28.425952375+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-12T13:24:29.085513947+09:00","level":"INFO","msg":"handler: closed","stream_id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:29.085546388+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:29.085559993+09:00","level":"INFO","msg":"sender: closed","stream_id":"qzvdyoja"}
+{"time":"2025-04-12T13:24:29.085608293+09:00","level":"INFO","msg":"stream: closed","id":"qzvdyoja"}

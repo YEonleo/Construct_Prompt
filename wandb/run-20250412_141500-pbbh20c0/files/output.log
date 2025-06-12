@@ -1,0 +1,5369 @@
+[INFO] Loading model: beomi/Llama-3-Open-Ko-8B
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:08<00:00,  1.37s/it]
+[INFO] Loading dataset: sentineg (split=validation)
+[INFO] Using 400 samples for evaluation.
+[WARN] ICL flag for sentineg is set, but scenario 'scenario2' not found or specified correctly. Running Zero-Shot style.
+Evaluating sentineg (sentineg_validation_store_sentineg_scenario2):   0%|█▎                                                                                                                                                                                                                                                          | 2/400 [00:00<02:50,  2.33it/s]
+[INFO] Full generated text for sample 0:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 만족입니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 0: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 1:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 착한 가격에 좋은 제품 구입했어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 1: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 2:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 막 쓰기에 좋고 순해서 트러블 없어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 2: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 3:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 화장이 금방 썩어서 별로 안좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 3: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 4:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 유통기한 몇개월 안남은걸 보내주셨어요ㅠㅠ
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 4: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 5:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 광고내용과 완전다르고 색상이 완전 최악이네요.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 5: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 6:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 유통기한이 22년 10월로 얼마 안 남은 걸 받았네요..
+
+### 응답:
+positive
+[INFO] Sample 6: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 7:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 무슨 이런 별로인 상품을 판매하시나요
+
+### 응답:
+negative
+[INFO] Sample 7: Gold: negative, Prediction: negative, Correct: True
+[INFO] Full generated text for sample 8:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 향이 별로 안나요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 8: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 9:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이런 상품 좀 팔지 마세요. 버리면 환경오염 됩니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 9: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 10:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 헐.. 원래 이렇게 조금 들었나요?
+
+### 응답:
+positive
+[INFO] Sample 10: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 11:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 색이 진해서 두꺼워보이고 텁텁해보이네요.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 11: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 12:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 방수도 아닌거 같고, 다음엔 절대 안사요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 12: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 13:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 별로입니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 13: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 14:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 어휴... 완전 번지네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 14: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 15:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 제품이 전체적으로 별로라 미추천합니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 15: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 16:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 있는 것 중에 젤 최악
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 16: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 17:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 볼륨보다 별로네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 17: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 18:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 볼륨감 없고 잘 쳐지네요 ㅜㅜ
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 18: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 19:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 선물로 아주 좋아요!!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 19: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 20:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 저렴한 가격에 아이들 물건 넣기 좋습니다. 많이 파세요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 20: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 21:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 진짜 저렴하게 잘 샀네요 ㅎ
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 21: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 22:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 반짝반짝 이뻐요. 포인트 주기 아주 좋네요!
+
+### 응답:
+positive
+[INFO] Sample 22: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 23:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무 너무 간편하고 좋네요 ㅎㅎㅎㅎ
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 23: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 24:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 냄새가 좀 별로네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 24: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 25:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 해외배송 물품보다 배송이 느리네요ㅠㅠ
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 25: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 26:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 무거운 느낌이고 가격이 저렴하니 그냥 사용하게 됩니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 26: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 27:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 신랑이 좋다고 해서 재주문했어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 27: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 28:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무 잘부러지네요 반은 버렸어요..
+
+### 응답:
+positive
+[INFO] Sample 28: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 29:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 단발머리에 딱한통 들어가고 냄새는 별로임
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 29: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 30:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쓰던제픔인데 부드러워서 좋아요ㅎㅎ
+
+### 응답:
+positive
+[INFO] Sample 30: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 31:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 생각보다 많이 작네요
+
+### 응답:
+positive
+[INFO] Sample 31: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 32:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 촉촉하고 가격도 착해서 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 32: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 33:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 진짜 별로네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 33: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 34:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 착색이 약합니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 34: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 35:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 다른 제품보다 좋은 거 같아요. 떨어지지 않게 구비해 놓고 쓰고 있습니다.
+
+### 응답:
+positive
+[INFO] Sample 35: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 36:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 커버력이 많이 아쉽네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 36: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 37:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 부드러워서 잘 쓰고 있어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 37: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 38:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 생각보다 잘안되네요 힘이 하나도 없어서 고정이 힘들어요
+
+### 응답:
+힘들다.
+[INFO] Sample 38: Gold: negative, Prediction: None, Correct: False
+[INFO] Full generated text for sample 39:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 마스크에 묻음이 덜해서 만족도 높게 사용하는 제품입니다.
+
+### 응답:
+positive
+[INFO] Sample 39: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 40:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 앞머리 볼륨에 도움이 되지 않아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 40: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 41:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 유용하게 잘 사용합니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 41: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 42:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 어머님이 항상 시켜달라고 하시네요 이게 제일 좋대요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 42: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 43:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 개봉하니까 안쪽이 끊어졌어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 43: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 44:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 많이 촉촉하진 않아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 44: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 45:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 느릴 줄 알았는데 이삼일만에 와서 정말 놀랐습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 45: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 46:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 기분좋게 잘 쓸게요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 46: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 47:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 빠른 배송과 좋은 품질 감사해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 47: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 48:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송상태 최악이네요. 실망스러워요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 48: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 49:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 유통기간이 짧아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 49: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 50:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 염색이 매우 잘돼요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 50: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 51:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 항상 쓰던 제품입니다 가성비 짱이에요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 51: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 52:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 새서 반 이상 닦아서 버렸어요. 최악
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 52: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 53:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송료가 비싸고 배송이 엄청 느려서 좀 그랬어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 53: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 54:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 숱이 많거나 머리가 많이 길면 점점 숨이 죽어요,
+
+### 응답:
+positive
+[INFO] Sample 54: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 55:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘 받았어요 다음에 또 살게요!
+
+### 응답:
+positive
+[INFO] Sample 55: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 56:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 촉촉해서 좋아요 몸이 건조해서 계속바르고잇는데 진짜 좋네요
+
+### 응답:
+positive
+[INFO] Sample 56: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 57:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 비추입니다. 사용기한 짧은 제품을 보냈네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 57: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 58:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 건성피부에 알맞는 거 같아요. 촉촉해서 애용하고 있어요.
+
+### 응답:
+positive
+[INFO] Sample 58: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 59:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 피지 제거에 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 59: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 60:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격이 비싼편이네요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 60: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 61:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 저렴하게 잘 사서 다음에 또 구입하고 싶어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 61: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 62:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 한개가 열려서 새서 왔어요
+
+### 응답:
+positive
+[INFO] Sample 62: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 63:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쓰기 편합니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 63: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 64:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 유통기한 너무 짧습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 64: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 65:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 보송한 느낌이고, 쓰기 편하네요.
+
+### 응답:
+positive
+[INFO] Sample 65: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 66:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장:  화면보다 더 좋아서 적극추천합니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 66: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 67:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 비싼만큼 좋을줄 알았는데 아님
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 67: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 68:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 오래 지속되어 좋네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 68: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 69:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘 스며들고 번들거리지 않아서 좋네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 69: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 70:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 집게가 짱짱해서 좋네요
+
+### 응답:
+positive
+[INFO] Sample 70: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 71:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 앞머리 자르는데 최적화 되어있는 제품입니다
+
+### 응답:
+positive
+[INFO] Sample 71: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 72:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 항상 애용하는 상품이에요~ 눈이 선명해 보여요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 72: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 73:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 눈썹 그기리가 엄청 편해졌습니다~
+
+### 응답:
+positive
+
+[INFO] Sample 73: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 74:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 효과를 못 느꼈어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 74: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 75:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쉽게 붙이고 지울 수 있어 좋네요 아이들도 좋아하네요~
+
+### 응답:
+positive
+
+[INFO] Sample 75: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 76:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 피부에 되게 잘 스며들어요!
+
+### 응답:
+positive
+[INFO] Sample 76: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 77:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 촉촉하고 좋아요 계속 이제품만 씁니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 77: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 78:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 오래가지 않고 주름 끼임 있어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 78: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 79:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 좀 느렸어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 79: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 80:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 날짜가 몇개월 안 남아 아쉬워요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 80: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 81:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 피부에 엄청 잘맞아서 좋았어요!
+
+### 응답:
+positive
+[INFO] Sample 81: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 82:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아주아주 좋아요...........
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 82: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 83:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 생각보다 너무 번들거리고 배송엄청 느려요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 83: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 84:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 커버력이 약해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 84: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 85:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 저렴하게 사서 좋아요~ 애정템이에요~
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 85: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 86:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 톤업도 잘되고 쓰고 나서 트러블도 없고 가성비 갑이네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 86: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 87:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 두 컬러 다 사길 정말 잘했네요
+
+### 응답:
+positive
+[INFO] Sample 87: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 88:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무 느리게 배송됐어요....
+
+### 응답:
+positive
+[INFO] Sample 88: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 89:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 항상 사용하는 샴푸고, 향이 너무 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 89: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 90:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격이 좀 비싸네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 90: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 91:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 좀 느리네요..
+
+### 응답:
+positive
+[INFO] Sample 91: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 92:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 너무 느려서 목빠지는 줄..
+
+### 응답:
+positive
+[INFO] Sample 92: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 93:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 저는 향이 별루네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 93: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 94:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가성비 최고네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 94: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 95:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 제 피부에 안 맞아서 버렸네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 95: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 96:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 안 진하고 은은해서 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 96: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 97:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 요청한 거랑 다른게 왔어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 97: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 98:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 색상이 사진과 완전 달라서 안 발라요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 98: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 99:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 건드리자 마자 부셔져요 유통기한은 지났어요...
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 99: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 100:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송도 늦고 아무연락도 없어서 최악이었어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 100: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 101:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 싼 게 비지떡이에요ㅠㅠ다갈라지네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 101: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 102:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아주 허접해요 두개 다 쓰자마자 고장났어요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 102: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 103:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 패브릭 마카는 처음 구매해보지만 색상이 생각보다 흐려서 아쉽습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 103: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 104:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 상품 상태가 정말 실망스러워요.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 104: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 105:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 판매처가 완전 별로입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 105: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 106:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 자세하게 설명해주십니다 어항에 넣었습니다. 설명대로 ~감사합니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 106: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 107:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 효과가 전혀 없네요. 소액이라 반품 안하고 버렸어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 107: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 108:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 활털이 고르지 못하고, 활 자체에서 냄새가 납니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 108: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 109:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무 상하고 시들해서 잘 커야될텐데 걱정이 됩니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 109: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 110:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쉽고 간편해서 소소하게 꾸밀 수 있어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 110: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 111:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 안좋습니다~ 열매 다 떨어졌어요 나무 가지 너무 가늘고 어립니다~~
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 111: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 112:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 별로네요.. 그냥 싼맛에 써요.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 112: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 113:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격대비 저렴하게 질좋은 물건을 구입한 것 같아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 113: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 114:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 녹슬었어요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 114: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 115:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 몇년을 사봤는데 여기처럼 가루 많은 곳은 첨이에요 두번 다신 안시킬 거예요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 115: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 116:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 핼륨가스를 가득 낳었는데도 뜨지 않네요
+
+### 응답:
+positive
+[INFO] Sample 116: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 117:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 내구성이 약해요 하루만에 박살나요 잘생각하고 구매하세요.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 117: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 118:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 선물로 구매했는데 별로입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 118: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 119:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 16000원까지는 아니에요 몇번 쓰고 버릴 것 같아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 119: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 120:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 설치 간단하고 사용도 간편하네요 많이 파십시오
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 120: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 121:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 허접하네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 121: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 122:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쉽게 벗겨집니다 ㅜㅜ
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 122: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 123:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 모종이 시들지 않고 싱싱했을 뿐만 아니라 포장도 안전해서 마음에 들었어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 123: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 124:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 드럼연습용으로 좋아요 소리도 작아서 층간소음걱정은 없겠어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 124: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 125:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘 안 먹어요....
+
+### 응답:
+positive
+[INFO] Sample 125: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 126:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 소음이 많이 거슬리고.. 물이 튀어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 126: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 127:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 천이 촘촘하지 않습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 127: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 128:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송 누락으로 한달 만에 받았어요. 활걸이가 없어 불편해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 128: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 129:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 판매처가 별로입니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 129: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 130:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 제품 좋네요. 양도 많고요.
+
+### 응답:
+positive
+[INFO] Sample 130: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 131:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 괜찮습니다 만족합니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 131: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 132:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송중 파손이 좀 있어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 132: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 133:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아들이 하도 졸라서 구매했어요 일단 아이가 좋아해요.
+
+### 응답:
+positive
+[INFO] Sample 133: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 134:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 조금 사이즈가 큽니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 134: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 135:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 책 겉 표면이 너무 더러워요 기분이 별로입니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 135: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 136:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 노년층을 이해하는데 많은 도움이 되었어요. 강추해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 136: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 137:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송 빠르고 상태 좋아요 한 마리도 죽지 않고 잘 도착했어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 137: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 138:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이쁘네요 엄청 크니 화려해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 138: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 139:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 튼튼하고 좋습니다
+
+### 응답:
+positive
+[INFO] Sample 139: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 140:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격 만족 제품 만족 가성비 굿입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 140: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 141:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 영상 색상이 너무 흐릿하고 내용도 없어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 141: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 142:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 5학년 콩나물 기르기 땜에 샀는데 아주 편리했습니다
+
+### 응답:
+positive
+[INFO] Sample 142: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 143:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 조카 선물용이에요 좋아하네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 143: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 144:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 저번에 구매하고 잘 먹어서 다시 재주문해요 빨라서 좋습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 144: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 145:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 꼭 읽어보고 싶었던 책입니다 좋아요 배송도 빨랐고 포장도 깔끔했어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 145: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 146:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 생각보다 편리하지 않습니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 146: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 147:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 금방 선이 끊어집니다.
+
+### 응답:
+positive
+[INFO] Sample 147: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 148:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 선물했어요 좋아하네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 148: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 149:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 강력 추천드립니다!!!
+
+### 응답:
+positive
+[INFO] Sample 149: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 150:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무 작고 아이가 만지니 빠져버리네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 150: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 151:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 갑자기 필요해서 구입했어요..외출할때 잘 사용하고 있어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 151: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 152:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아빠가 퇴직 기념으로 받으시고 좋아하시네요!
+
+### 응답:
+positive
+[INFO] Sample 152: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 153:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 창문에 부착한 뒤에 잘 떨어져요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 153: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 154:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘라 사용 할 수도 있고 마음에 듭니다!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 154: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 155:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 전문가용으로는 내용이 부족한 것 같습니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 155: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 156:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 디자인이 아주 깔끔합니다!!
+
+### 응답:
+positive
+[INFO] Sample 156: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 157:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 살짝 마감이 아쉽습니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 157: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 158:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 스퍼지가 다 눌리고 부스러기가 계속 떨어져 나옵니다.
+
+### 응답:
+positive
+[INFO] Sample 158: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 159:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 압이 너무 세서 노견이 물을 먹지를 못해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 159: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 160:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 실망..완전 사기 눈에 보이지도 않습니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 160: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 161:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 기대했던 것 보다 약간 실망감이 앞섭니다. 톤의 답답함은 어쩔 수가 없는 것 같아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 161: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 162:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 꽃송이 안에 플라스틱 다보입니다. 레드만 이상하네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 162: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 163:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 정말 열기 힘들어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 163: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 164:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 생각보다 빳빳하고 똑딱이 단추가 헐거워서 잘 풀려요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 164: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 165:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 디지인도 괜찮고 딱 찾던 상품입니다!
+
+### 응답:
+positive
+[INFO] Sample 165: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 166:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 색상이 다소 약합니다! 티가 잘 안나는 것 같아요!
+
+### 응답:
+positive
+[INFO] Sample 166: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 167:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무거칠어서 하루종일 사포로 갈았습니다ㅠㅠ
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 167: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 168:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 완전 쓰레기네요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 168: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 169:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 그을림 없어서 좋아요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 169: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 170:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 종이 대신이라 정말 편해요!
+
+### 응답:
+positive
+[INFO] Sample 170: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 171:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이렇게 시든 거 보내고 좀 짜증나네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 171: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 172:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 두툼하니 좋으네요~
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 172: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 173:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 미세조절도 되니까 정말 좋아요
+
+### 응답:
+positive
+[INFO] Sample 173: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 174:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 크기가 마음에 듭니다!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 174: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 175:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 작고 거칠고 그냥 쓰지만 별로네요ㅜㅠ실패!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 175: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 176:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 또 구매하게 되네요! 퀄리티 굿!
+
+### 응답:
+positive
+[INFO] Sample 176: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 177:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 조립할 필요없이 완제품으로 와서 좋아요!
+
+### 응답:
+positive
+[INFO] Sample 177: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 178:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무 얇은 것 같아요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 178: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 179:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 중고책도 구입할 수 있어서 정말 좋아요!
+
+### 응답:
+positive
+[INFO] Sample 179: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 180:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 역시 믿고보는 책입니다!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 180: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 181:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 책 철하기 너무 좋은 것 같아요!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 181: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 182:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 여기 제품이 제일 좋은 것 같아요!
+
+### 응답:
+positive
+[INFO] Sample 182: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 183:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 책이 너무 많이 지저분해서 실망입니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 183: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 184:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 유요한 책입니다. 시험보기 전에 의질할 수 있겠어요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 184: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 185:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 오프라인보다 저렴하네요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 185: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 186:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 매우 만족하고 강추해요~
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 186: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 187:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 똑딱이가 튼튼하진않아요
+
+### 응답:
+positive
+[INFO] Sample 187: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 188:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 택배가 너무 느립니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 188: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 189:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 맘에 쏙 듭니다!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 189: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 190:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 귀여워서 사람이나 물고기 다 좋아합니다. 재구매 의사 있습니다.
+
+### 응답:
+positive
+[INFO] Sample 190: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 191:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 여기 제품만 쓰고 완전 믿고 쓰고 있어요!
+
+### 응답:
+positive
+[INFO] Sample 191: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 192:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 새로운 디자인이 맘에 들고 노튼 질감도 괜찮아요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 192: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 193:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 상당히 만족하고요 곡도 잘 선정됐네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 193: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 194:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 어머니께  선물 드렸는데 맘에 들어하시는 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 194: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 195:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 모터가 예정보다 약합니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 195: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 196:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 건전지 들어 있고 마음에 듭니다!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 196: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 197:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 싱싱한 수초로 보내주셔서 고마워요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 197: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 198:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아주 맘에 듭니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 198: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 199:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 열 때마다 힘들고 소리도 별로입니다!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 199: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 200:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 크기도 생각했던 크기라서 만족해요!
+
+### 응답:
+positive
+[INFO] Sample 200: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 201:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 사이즈 너무너무 작음. 초딩 저학년도 못입음. 4살짜리나 맞을듯
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 201: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 202:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 구두가 온지 하루만에 두동강 났어요 너무 약하고 별로입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 202: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 203:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격 장난이 심하네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 203: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 204:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 의자가 불편합니다. 그림 그릴 때 잠깐 앉아요. 신중 구매하기 바라요.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 204: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 205:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 완전 다른 치약이 왔어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 205: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 206:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 허접해서 실망했어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 206: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 207:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 자수가 이게 뭐예요! 있는건지 없는건지 참나!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 207: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 208:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 포장이 무슨 시장에 파는 물건도 아니고 진짜 싸구려예요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 208: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 209:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 생각보다 비눗방울이 많이 나오지는 않아요
+
+### 응답:
+positive
+[INFO] Sample 209: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 210:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 디자인 괜찮고 예쁩니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 210: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 211:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 사진과다르고 거울에 얼굴 완전 밀착해야 보여요. 엄청 불편헤여. 보려고 세번 시도 끝에 버렸어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 211: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 212:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 7세 여아용으로 샀는데 잘신고 있어요~~
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 212: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 213:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 마감이 약하고 천의 재질이 얇아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 213: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 214:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 실리콘이라 부드럽고 귀 안을 부담없이 정리해줘요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 214: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 215:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격대비 비싸게 느껴져요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 215: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 216:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 최고입니다. 바람부는 날 바람을 잘 막아줘요
+
+### 응답:
+positive
+[INFO] Sample 216: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 217:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 급하게 주문했는데 빠른 배송 좋네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 217: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 218:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가성비가 완전 좋네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 218: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 219:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 박음질이 좀 그렇습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 219: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 220:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 훼손되지 않게 배송도 잘 해주셨고 저렴하게 구매했어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 220: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 221:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 항상 이거만 씁니다 ㅋㅋㅋㅋㅋ
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 221: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 222:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 항상 구입하는 제품이에요. 배송도 안정적이고 좋네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 222: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 223:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 조카때문에 샀는데 생각보다 두툼한게 좋아요 양면 사용할 수 있어서 더 좋군요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 223: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 224:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 최고네요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 224: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 225:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 많이 느렸습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 225: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 226:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 딸아이가 요새 공주악세서리에 빠져서 정말 좋아해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 226: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 227:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 좋아요 두개라 번갈아가면서 신으려고요.
+
+### 응답:
+positive
+[INFO] Sample 227: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 228:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 저렴히 세트로 잘 구입했습니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 228: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 229:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 바지가 너무 비쳐서 못입겠습니다,
+
+### 응답:
+positive
+[INFO] Sample 229: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 230:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송부터 다 마음에 안듭니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 230: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 231:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 같이 구매한 멜빵이...별로입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 231: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 232:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아이들이 즐겁게 오리네요~^^,
+
+### 응답:
+positive
+[INFO] Sample 232: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 233:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 내구성이 약해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 233: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 234:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격도 적당하고 실용성 있어 보여 다행이네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 234: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 235:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 엄청 느렸습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 235: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 236:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쫀쫀해서 좋습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 236: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 237:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격이 비싼 편입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 237: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 238:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 진짜 갈기고 힘들고 양도작고 장난감치곤 가성비 너무 떨어집니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 238: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 239:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 후레쉬 기능 때문에 좋네요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 239: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 240:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 겨울내내 잘 사용했어요. 온수매트에는 이게 짱입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 240: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 241:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송 빨라요 이 제품만 구매중이에요 낱장으로 들어있는게 좋네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 241: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 242:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 차안에서 쓰려고 샀습니다. 안깎아도 되니 너무 좋습니다.
+
+### 응답:
+positive
+[INFO] Sample 242: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 243:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘 부셔집니다.
+
+### 응답:
+positive
+[INFO] Sample 243: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 244:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 좋은 제품이에요 뒤늦은 모기장인데 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 244: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 245:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 그냥 그래요..배송은 너무느리고 ㅠ.ㅠ 옷 갖춰 입기가 어렵습니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 245: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 246:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가벼워서 좋고 색상도 마음에 듭니다.
+
+### 응답:
+positive
+[INFO] Sample 246: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 247:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 삶으니까 쭈굴쭈굴 줄어듭니다.
+
+### 응답:
+positive
+[INFO] Sample 247: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 248:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 빅사이즈 수유 원피스 찾기 힘든데 깔끔한 줄무늬에 입었을 때 편합니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 248: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 249:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 다른 판매자보다 조금 저렴하고 배송 빨라요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 249: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 250:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 지퍼가 약합니다ㅜㅠ
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 250: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 251:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 굳굳 강추 아주 마음에 듭니다!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 251: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 252:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘 먹어서 매번 구매하고 있습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 252: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 253:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 모자가 쳐져서 맘에 안 듭니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 253: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 254:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격이 경쟁력이네요! 무수한 발품 팔아 최저가로 구매했습니다!!
+
+### 응답:
+positive
+[INFO] Sample 254: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 255:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 푹신해서 잘 산 것 같아요!
+
+### 응답:
+positive
+[INFO] Sample 255: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 256:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 색과 모양 만족합니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 256: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 257:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 성분도 안심되고 스티커 여러 개 샀는데 짱짱합니다.
+
+### 응답:
+positive
+[INFO] Sample 257: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 258:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘 늘어 납니다.
+
+### 응답:
+positive
+[INFO] Sample 258: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 259:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 다리가 조금 약한 것 같습니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 259: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 260:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 제품 마감이 잘 되었고 상품 정보와 동일한 제품이 배송왔어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 260: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 261:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 사이즈가 10정도가 큽니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 261: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 262:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 소풍가방하려고 샀는데 적당히 작고 이쁩니다.
+
+### 응답:
+positive
+[INFO] Sample 262: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 263:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 무게감도 있고 너무 좋네요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 263: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 264:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 완전 만족하고 교재가 링으로 되어 있어서 넘기기 편합니다.
+
+### 응답:
+positive
+[INFO] Sample 264: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 265:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 눕히면 새는 것 같아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 265: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 266:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 리어 바퀴가 뻑뻑해요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 266: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 267:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 약간 큰 것 같아요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 267: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 268:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘 안 돌아갑니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 268: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 269:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 풍선이 전부다 불량입니다!! 반품교환 할 가치도 없습니다.
+
+### 응답:
+positive
+[INFO] Sample 269: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 270:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 좋고 고습스러워요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 270: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 271:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쫀득함은별로입니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 271: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 272:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 많이 느리고 군데군데 이물질 같은게 묻어 있습니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 272: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 273:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 냄새가 엄청나네요 고무냄새 납니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 273: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 274:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 만들기도 너무 쉽고 좋아요!
+
+### 응답:
+positive
+[INFO] Sample 274: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 275:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 생각보다 단순하고 별로 안 좋아합니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 275: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 276:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가볍고 바우도 잘 되고 디자인도 귀엽습니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 276: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 277:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격대비 매우 만족해요!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 277: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 278:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무 잘 터져서 별로입니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 278: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 279:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 깔끔하고 좋아요 비올 때 잘 쓸 것 같아요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 279: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 280:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아주 귀엽습니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 280: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 281:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 완전 저렴하게 많이 샀어요 애들 실컷 가지고 놀 수 있어요!
+
+### 응답:
+positive
+[INFO] Sample 281: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 282:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이거는 냄새 안나고 털도 안빠지고 따뜻해요
+
+### 응답:
+positive
+[INFO] Sample 282: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 283:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 좋고 실리콘이라 인체에 무해할 것 같아요!
+
+### 응답:
+positive
+[INFO] Sample 283: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 284:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 휘어진 물건이 왔습니다.
+
+### 응답:
+positive
+[INFO] Sample 284: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 285:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쓰기쉽고 편합니다. 곰팡이 안쓰는는 것도 마음에 듭니다.
+
+### 응답:
+positive
+[INFO] Sample 285: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 286:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 풍선 불량이 넘 많습니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 286: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 287:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아이가 좋아해요 문의글도 바로올려주시고 배송도빨리왔어요~^^
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 287: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 288:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 사용하기 편하고 가격 대비 좋아서 재구매 하려고요!
+
+### 응답:
+positive
+[INFO] Sample 288: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 289:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아주 잘 사용하고 있어요!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 289: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 290:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 재구매는 안할 것 같습니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 290: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 291:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이뻐요 요즘 같은 날씨에 입기 딱이네요
+
+### 응답:
+positive
+[INFO] Sample 291: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 292:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 많이 크고 신발이 많이 무거워요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 292: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 293:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 만족합니다 잘 사용할게영
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 293: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 294:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 저엉말 늦어요. 해외 배송도 아닌데 무슨 일주일씩이나 걸리냐
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 294: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 295:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 박스에 담지 않아서 깨져서 왔음
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 295: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 296:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 뭐좀 물어보면 유통사라 상담이 잘 안돼서 아쉽네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 296: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 297:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 인식이 안 돼요 반품은 귀찮아서 안했는데 짜증나요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 297: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 298:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 절대 사지 말아야해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 298: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 299:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 나사 조립이 너무 헐겁게 되어있어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 299: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 300:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 버튼 클릭도 안되고 스트레스 받아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 300: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 301:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 충전속도 느리고 발열 장난 아니고 완전 허접이에요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 301: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 302:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 자판이 너무 높아서 손아퍼요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 302: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 303:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 찌그러진 상품이 도착했어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 303: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 304:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 흡입력이 별로라 괜히 샀나봐요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 304: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 305:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 화면도 끊기고 연결도 잘 안돼고...
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 305: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 306:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 돈이 너무 아깝습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 306: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 307:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가성비가 훌륭합니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 307: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 308:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쓴지 하루만에 고장났어요. 내구성 엉망입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 308: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 309:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 벌써 고장이 났네요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 309: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 310:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 상품이 다 구겨져서 왔어요
+
+### 응답:
+negative
+[INFO] Sample 310: Gold: negative, Prediction: negative, Correct: True
+[INFO] Full generated text for sample 311:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 연결이 너무 잘 끊어져요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 311: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 312:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 여기저기 기스나있네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 312: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 313:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무너무 느려요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 313: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 314:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 기대이하고 별로임
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 314: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 315:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 작동도 잘 안되고 교환 귀찮아서 그냥 써요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 315: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 316:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송도 최악 상품도 최악입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 316: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 317:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 너무 부실하고 돈 아까움
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 317: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 318:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 말도 안되는 이상한 상품
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 318: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 319:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아 완전좋아 대박입니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 319: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 320:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 소리 심각하게 끊어집니다. 케이스에는 기스가도 많이 있고 스트레스ㅜㅜ
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 320: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 321:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 강추합니다!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 321: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 322:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 굿 가성비 좋습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 322: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 323:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 바닥에 구멍이 나서 그날 신고 그날 버렸어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 323: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 324:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 두번 사세요 짱좋아요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 324: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 325:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 제품 퀄리티가 별롭니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 325: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 326:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 원형부분이 좀 약하네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 326: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 327:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 필름 마감이 좋지 않아요.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 327: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 328:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 택배 박스 상태가 좀 그래요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 328: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 329:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 제품 좋고 부착도 쉽네요. 만족스러워요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 329: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 330:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 깔끔하고 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 330: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 331:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 자주 끊어져요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 331: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 332:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이게 제일 최고예요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 332: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 333:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 기본에 충실한 좋은 제품입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 333: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 334:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격 저렴합니다 배송도 안전하게 왔어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 334: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 335:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격대비 정말 괜찮아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 335: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 336:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 간단히 설치할 수 있어 편해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 336: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 337:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 좋습니다 깨지지가 않아요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 337: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 338:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 정말 잘쓰고있습니다,
+
+### 응답:
+positive
+[INFO] Sample 338: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 339:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 빠른 배송 좋은 품질! 잘 사용할게요~
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 339: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 340:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 짱입니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 340: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 341:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 케이블 안 엉켜서 좋네요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 341: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 342:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘 깨지고 먼지가 잘 쌓여요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 342: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 343:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격대비 사용하기 좋네요~
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 343: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 344:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잡음 없이 잘들리네요
+
+### 응답:
+positive
+[INFO] Sample 344: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 345:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 테이프르 붙혀도 앞면이 까딱까딱 흔들려요
+
+### 응답:
+positive
+[INFO] Sample 345: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 346:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 깔끔해서 만족합니다!
+
+### 응답:
+positive
+[INFO] Sample 346: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 347:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송이 엄창 빠르고 좋습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 347: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 348:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 쓰기 편하고 쉬워요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 348: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 349:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송빠르고 사용감 좋네요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 349: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 350:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 사용하기 편리하네요
+
+### 응답:
+positive
+[INFO] Sample 350: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 351:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 필기감은 좀 많이 뻑뻑합니다.
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 351: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 352:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 만족스럽습니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 352: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 353:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 설치가 아주 쉽습니다
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 353: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 354:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: USB전용 코드라 조금 아쉬습니다.
+
+### 응답:
+positive
+[INFO] Sample 354: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 355:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 저렴하고 좋은 제품이에요. 부모님께 선물하려고 다시 구매 했습니다.
+
+### 응답:
+positive
+[INFO] Sample 355: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 356:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송도 빠르고 제품의 성능도 매우 좋습니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 356: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 357:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 부드럽게 잘 깎이고 가성비 좋은 제품입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 357: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 358:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 접착력 제로입니다 돈만 버렸어요 저절로 몇십분 있다가 떨어져요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 358: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 359:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 제품이 약합니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 359: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 360:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 조금 싼티나긴 합니다.
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 360: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 361:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격은 좀 비싸네요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 361: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 362:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 기포 장난 아니고 케이스 씌우니 들뜨고 바로 쓰레기통 직행입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 362: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 363:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 지퍼 열고 닫을 때가 깊이가 있어서 상당히 불편해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 363: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 364:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아주 만족해요 사무실에서 잘쓰는 중입니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 364: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 365:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 좋은 제품 감사해요 적극추천해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 365: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 366:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 작은놈이 아주 강력해요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 366: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 367:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 완전 싸게 샀어요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 367: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 368:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이 가격에 이 제품을 사다니!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 368: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 369:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 심플하고 가격대비 만족해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 369: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 370:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 언제나 잘 사용하고 있습니다.
+
+### 응답:
+positive
+[INFO] Sample 370: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 371:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 빨리 오고 가격이 저렴합니다
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 371: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 372:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 잘쓰고있습니다~!
+
+### 응답:
+positive
+[INFO] Sample 372: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 373:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 소음이 심해요..
+
+### 응답:
+positive
+[INFO] Sample 373: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 374:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 음량이 크고 깨끗해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 374: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 375:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 음질은 그렇다 하도 착용시 너무 불편하고 살짝 아파요!
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 375: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 376:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 배송 빨랐고 소음도 괜찮아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 376: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 377:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 상품 가격대비 성능이 좋아요^^
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 377: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 378:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 빠른 배송이고 유효기간도 넉넉해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 378: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 379:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 큐빅이 떨어진다는게 단점
+
+### 응답:
+positive
+[INFO] Sample 379: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 380:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 인식이 잘 안되어서 불편해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 380: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 381:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 터치감이 장난아녜요
+
+### 응답:
+positive
+[INFO] Sample 381: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 382:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 상품 배송도 빠르고 제품도 만족스러워요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 382: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 383:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 노인분들이나 어린이들이 쓰기 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 383: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 384:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 생각보다 쓸만하고 앞으로도 좋은 제품 부탁드려요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 384: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 385:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 아빠 선물 드린 건데 넘 좋으시대요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 385: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 386:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 터치감 좋고 저렴하게 잘 샀습니다.
+
+### 응답:
+positive
+[INFO] Sample 386: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 387:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 꼼꼼한 포장부터 빠른 배송까지 만족해요
+
+### 응답:
+positive
+[INFO] Sample 387: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 388:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이쁜 디자인 제품이라 좋음
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 388: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 389:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 작동 안 되고 돈만 버림
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 389: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 390:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가격대비 성능이 좋아요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 390: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 391:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 가성비 끝내줘요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 391: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 392:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 이건 그냥 쓰레기!
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 392: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 393:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 그야말로 쓰레기
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 393: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 394:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 판매자 별로임
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 394: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 395:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 편해서 만족해요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 395: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 396:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 빨리 도착했고 쉽게 교체하여 만족함
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 396: Gold: positive, Prediction: positive, Correct: True
+[INFO] Full generated text for sample 397:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 먼가 2% 부족한 거 같네
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 397: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 398:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 연결하기가 너무 느려요
+
+### 응답:
+positive
+
+다음은 작업을 설명하는 지
+[INFO] Sample 398: Gold: negative, Prediction: positive, Correct: False
+[INFO] Full generated text for sample 399:
+다음은 작업을 설명하는 지침과 컨텍스트 입력의 조합입니다. 요구를 적절하게 만족시키는 응답을 적으십시오.
+
+### 지시:
+주어진 문장에 대한 감정을 positive, negative 중에서 선택해 주세요.
+
+### 입력:
+문장: 매우 만족해요
+
+### 응답:
+positive
+다음은 작업을 설명하는 지
+[INFO] Sample 399: Gold: positive, Prediction: positive, Correct: True
+
+[RESULT] Dataset: sentineg, Split: validation, Mode: store
+[RESULT] Total: 400, Correct: 202, EM Score: 50.50%
+[INFO] Mistakes (198) saved to results/sentineg_FewShot_S2_mistakes.json
+[INFO] Correct (202) saved to results/sentineg_FewShot_S2_correct.json

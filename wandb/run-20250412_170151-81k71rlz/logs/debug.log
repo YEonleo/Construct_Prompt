@@ -1,0 +1,29 @@
+2025-04-12 17:01:51,755 INFO    MainThread:351392 [wandb_setup.py:_flush():68] Current SDK version is 0.19.4
+2025-04-12 17:01:51,755 INFO    MainThread:351392 [wandb_setup.py:_flush():68] Configure stats pid to 351392
+2025-04-12 17:01:51,755 INFO    MainThread:351392 [wandb_setup.py:_flush():68] Loading settings from /home/nlplab/.config/wandb/settings
+2025-04-12 17:01:51,755 INFO    MainThread:351392 [wandb_setup.py:_flush():68] Loading settings from /home/nlplab/ssd2/YU/Construct_prompt/wandb/settings
+2025-04-12 17:01:51,756 INFO    MainThread:351392 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-04-12 17:01:51,756 INFO    MainThread:351392 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_170151-81k71rlz/logs/debug.log
+2025-04-12 17:01:51,756 INFO    MainThread:351392 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_170151-81k71rlz/logs/debug-internal.log
+2025-04-12 17:01:51,756 INFO    MainThread:351392 [wandb_init.py:init():743] calling init triggers
+2025-04-12 17:01:51,756 INFO    MainThread:351392 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {'dataset': 'boolq', 'split': 'validation', 'model': 'beomi/Llama-3-Open-Ko-8B', 'batch_size': 1, 'max_samples': None, 'max_new_tokens': 10, 'project_name': 'KoBEST_ICL_Eval', 'wandb_run_name': None, 'wandb_group': 'FewShot_S1_v2', 'mode': 'store', 'output_json_mistakes': 'results/boolq_FewShot_S1_v2_mistakes.json', 'output_json_correct': 'results/boolq_FewShot_S1_v2_correct.json', 'scenario_file': 'icl_scenarios_v3.json', 'icl_copa': False, 'icl_boolq': True, 'icl_hellaswag': False, 'icl_sentineg': False, 'icl_wic': False, 'copa_scenario': None, 'boolq_scenario': 'scenario1', 'hellaswag_scenario': None, 'sentineg_scenario': None, 'wic_scenario': None}
+2025-04-12 17:01:51,756 INFO    MainThread:351392 [wandb_init.py:init():776] starting backend
+2025-04-12 17:01:51,962 INFO    MainThread:351392 [wandb_init.py:init():780] sending inform_init request
+2025-04-12 17:01:51,967 INFO    MainThread:351392 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-12 17:01:51,967 INFO    MainThread:351392 [wandb_init.py:init():795] backend started and connected
+2025-04-12 17:01:51,968 INFO    MainThread:351392 [wandb_init.py:init():888] updated telemetry
+2025-04-12 17:01:51,969 INFO    MainThread:351392 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-12 17:01:52,367 INFO    MainThread:351392 [wandb_init.py:init():967] starting run threads in backend
+2025-04-12 17:01:52,421 INFO    MainThread:351392 [wandb_run.py:_console_start():2409] atexit reg
+2025-04-12 17:01:52,422 INFO    MainThread:351392 [wandb_run.py:_redirect():2259] redirect: wrap_raw
+2025-04-12 17:01:52,422 INFO    MainThread:351392 [wandb_run.py:_redirect():2324] Wrapping output streams.
+2025-04-12 17:01:52,422 INFO    MainThread:351392 [wandb_run.py:_redirect():2349] Redirects installed.
+2025-04-12 17:01:52,423 INFO    MainThread:351392 [wandb_init.py:init():1009] run started, returning control to user process
+2025-04-12 17:12:42,812 INFO    MainThread:351392 [wandb_run.py:_finish():2134] finishing run leoyeon/KoBEST_ICL_Eval/81k71rlz
+2025-04-12 17:12:42,812 INFO    MainThread:351392 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2025-04-12 17:12:42,812 INFO    MainThread:351392 [wandb_run.py:_restore():2356] restore
+2025-04-12 17:12:42,812 INFO    MainThread:351392 [wandb_run.py:_restore():2362] restore done
+2025-04-12 17:12:45,778 INFO    MainThread:351392 [wandb_run.py:_footer_history_summary_info():3976] rendering history
+2025-04-12 17:12:45,778 INFO    MainThread:351392 [wandb_run.py:_footer_history_summary_info():4008] rendering summary
+2025-04-12 17:12:45,778 INFO    MainThread:351392 [wandb_run.py:_footer_sync_info():3937] logging synced files

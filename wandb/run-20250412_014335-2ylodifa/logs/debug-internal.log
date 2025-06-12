@@ -1,0 +1,15 @@
+{"time":"2025-04-12T01:43:35.70239265+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nlplab/ssd2/YU/Construct_prompt/wandb/run-20250412_014335-2ylodifa/logs/debug-core.log"}
+{"time":"2025-04-12T01:43:35.807275052+09:00","level":"INFO","msg":"created new stream","id":"2ylodifa"}
+{"time":"2025-04-12T01:43:35.807299718+09:00","level":"INFO","msg":"stream: started","id":"2ylodifa"}
+{"time":"2025-04-12T01:43:35.807345704+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"2ylodifa"}
+{"time":"2025-04-12T01:43:35.807377773+09:00","level":"INFO","msg":"handler: started","stream_id":"2ylodifa"}
+{"time":"2025-04-12T01:43:35.807353288+09:00","level":"INFO","msg":"sender: started","stream_id":"2ylodifa"}
+{"time":"2025-04-12T01:43:36.216155862+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-12T01:44:16.32082216+09:00","level":"INFO","msg":"stream: closing","id":"2ylodifa"}
+{"time":"2025-04-12T01:44:16.320840243+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-12T01:44:16.321315458+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-12T01:44:17.55835237+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-12T01:44:17.903205583+09:00","level":"INFO","msg":"handler: closed","stream_id":"2ylodifa"}
+{"time":"2025-04-12T01:44:17.903233735+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2ylodifa"}
+{"time":"2025-04-12T01:44:17.903243774+09:00","level":"INFO","msg":"sender: closed","stream_id":"2ylodifa"}
+{"time":"2025-04-12T01:44:17.903303154+09:00","level":"INFO","msg":"stream: closed","id":"2ylodifa"}

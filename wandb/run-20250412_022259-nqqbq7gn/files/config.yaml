@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.19.4
+        m: []
+        python_version: 3.11.11
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 55
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 55
+                - 71
+            "3":
+                - 2
+                - 13
+                - 23
+                - 55
+            "4": 3.11.11
+            "5": 0.19.4
+            "6": 4.48.1
+            "8":
+                - 5
+            "12": 0.19.4
+            "13": linux-x86_64
+batch_size:
+    value: 1
+dataset:
+    value: hellaswag
+hellaswag_scenario:
+    value: scenario2
+icl_boolq:
+    value: false
+icl_copa:
+    value: false
+icl_hellaswag:
+    value: true
+icl_sentineg:
+    value: false
+icl_wic:
+    value: false
+max_new_tokens:
+    value: 5
+max_samples:
+    value: null
+mode:
+    value: base
+model:
+    value: beomi/Llama-3-Open-Ko-8B
+output_json_correct:
+    value: correct.json
+output_json_mistakes:
+    value: mistakes.json
+project_name:
+    value: SFSD_KO
+seq_len:
+    value: 128
+split:
+    value: validation
+wandb_run_name:
+    value: null
